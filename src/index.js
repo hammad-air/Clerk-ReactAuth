@@ -24,15 +24,15 @@ const ClerkWithRoutes = () => {
       <Routes>
         <Route path="/" element={<App />} />
         <Route
-          path="/sign-in/*"
-          element={<SignIn redirectUrl={'/protected'} routing="path" path="/sign-in" />}
+          path="https://clerk-react.onrender.com/sign-in/*"
+          element={<SignIn redirectUrl={'/protected'} routing="path" path="https://clerk-react.onrender.com/sign-in" />}
         />
         <Route
-          path="/sign-up/*"
-          element={<SignUp redirectUrl={'/protected'} routing="path" path="/sign-up" />}
+          path="https://clerk-react.onrender.com/sign-in/*"
+          element={<SignUp redirectUrl={'/protected'} routing="path" path="/https://clerk-react.onrender.com/sign-in" />}
         />
         <Route
-          path="/protected"
+          path="https://clerk-react.onrender.com/sign-in/protected"
           element={
             <>
               <SignedIn>
